@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPFExample1.Views.MainWindow1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFExample1.Views"
+        mc:Ignorable="d"
+        Title="WPFExample1" Height="132" Width="400">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Styles/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <StackPanel>
+        <Button Style="{StaticResource MenuButton}" Click="ButtonStackPanel_Click">1.1. StackPanel</Button>
+        <Button Style="{StaticResource MenuButton}" Click="ButtonGrid_Click">1.2. Grid</Button>
+        <Button Style="{StaticResource MenuButton}" Click="ButtonWrapPanel_Click">1.3. WrapPanel</Button>
+    </StackPanel>
+</Window>

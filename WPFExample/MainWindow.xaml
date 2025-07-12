@@ -1,0 +1,16 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="185" Width="400">
+    <StackPanel>
+        <Button Style="{StaticResource MainMenuButton}">1. Giao diện</Button>
+        <Button Style="{StaticResource MainMenuButton}">2. Framework và kỹ thuật</Button>
+        <Button Style="{StaticResource MainMenuButton}">3. Control</Button>
+        <Button Style="{StaticResource MainMenuButton}">4. Mô hình MVVM</Button>
+        <Button Style="{StaticResource MainMenuButton}">5. Codebase</Button>
+    </StackPanel>
+</Window>
